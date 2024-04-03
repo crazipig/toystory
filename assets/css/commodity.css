@@ -1,0 +1,237 @@
+body{
+    background-color: #c7def4;
+}
+.bd{
+    width: 70%;
+    margin: 2% 5% 5% 15%  ;
+    overflow: auto;
+    border-style:outset;
+}
+
+.bigword{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 12%;
+}
+
+.hr-edge{
+    height: 3px;
+    border: 0;
+    padding-top: 1px;
+    background: linear-gradient(to right, transparent,#093663, transparent);
+}
+
+.bdtext{
+    
+    
+    font-family: "Microsoft JhengHei";
+    font-size: 23px;
+    
+}
+
+.bdtext h1{
+    text-align: center;
+}
+
+.hrst{
+    width:40%;
+    margin: 0 auto;
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #093663, transparent);
+}
+.money{
+    font-size: 40px;
+    color:brown;
+}
+
+.wrapper{
+    height: 55px;
+    min-width: 100px;
+    display: flex;
+    border-radius: 6px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper span.num{
+    font-size: 20pox;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+.checked {
+    color: orange;
+}
+
+
+*{
+    box-sizing:border-box
+}
+
+.slideshow-container {
+    float: left;
+    max-width: 500px;
+    position: relative;
+    margin: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.mySlidesfade img{
+    margin: 20px;
+}
+
+.shopping{
+    background-color:#FF5151;
+    color: white;
+    border-color:	#FF5151 ;
+    font-size: 30px;
+    width: 20%;
+    height: 10%;
+    margin-left: 78%;
+    margin-bottom: 1%;
+}
+
+.order {
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#0072E3,white);
+    background: -o-linear-gradient(y#0072E3,white);
+    background: -moz-linear-gradient(#0072E3,white);
+    background: linear-gradient(#0072E3,white);
+    
+ }
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+}
+.star{
+    width: 90%;
+    height: 100px;
+}
+
+.bigtitle{
+    font-size: 50px;
+}
+
+.submita{
+    float: right;
+    margin-top: 10px;
+}
+
+.commentspace{
+    border: #fff  5px solid;
+    width: 50%;
+    height: 50%;
+    max-width: 1200px;
+    padding: 3%;
+    border-radius: 20px 20px;
+    margin: 2% auto 0;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    margin-top: 10px;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    background-color: #454552;
+
+    color: #fff;
+    text-align: center;
+}

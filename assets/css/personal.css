@@ -1,0 +1,121 @@
+body {
+    background-image: url(../images/背景.jpg);
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.click{
+    text-align: center;
+}
+.btnbuy{
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+   color: black;
+   font-size: large;
+   font-weight: bold;
+   cursor:pointer;
+}
+.btnbuy:hover{
+    background-color: black;
+    color: white;
+}
+.buy{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.tab-contnet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15% ;
+    margin-left: 15%;
+    max-width: 70%;
+
+    background-color: 	#6495ED;
+    margin-bottom: 20px;
+    padding: 30px 40px;
+    position: relative;
+
+}
+
+.form-group {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    
+    background-color: #EAF0ED;
+    height: auto;
+    border: none;
+    padding: 17px 20px;
+    color: #8DA291;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-group {
+
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-btn {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    width: 50%;
+    line-height: 56px;
+    padding: 0;
+    font-size: 20px;
+    background-color: #bac5bc;
+    border-radius: 0;
+    color: #EAF0ED;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #EAF0ED;
+
+}
+
+.active {
+    background-color: #EAF0ED;
+    color: #3F5D45;
+}
+.form-group img{
+    display: inline;
+    margin-left: 2%;
+}
+.fa{
+    position: absolute;
+    right: 10px;
+    top:15px;
+    font-size: 20px;
+    cursor: pointer;
+}
